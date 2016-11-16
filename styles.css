@@ -29,3 +29,44 @@ p {
 
 	background-color: orange;
 }
+
+/*Step 3 */
+
+#li-1 {
+
+	font-size: 30px;
+}
+#li-2 {
+
+	font-weight: bold;
+}
+#li-3 {
+	text-transform: uppercase;
+}
+#myster-ul li::nth child(2n+1) {
+
+	font-family: 'Mystery Quest', cursive;
+}
+img {
+
+	width: 200px;
+
+}
+#flex-kermit {
+	display: flex;
+	
+}
+#flext-kermit > img {
+	width: 30%;
+
+
+}
+input:valid {
+	background-color: green;
+}
+input:invalid {
+	background-color: red;
+}
+input {
+	background-color: yellow;
+}
